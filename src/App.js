@@ -1,8 +1,10 @@
 import React from 'react';
 import Console from './Console'
 import logo from './logo.svg';
+import './fonts/stylesheet.css';
 import './App.css';
-import Reptar from './logo-white.png'
+
+import Reptar from './img/logo-white.png'
 import Brim from 'brim'
 
 function App() {
@@ -26,7 +28,7 @@ function App() {
 
           },
           {
-            prompt: "Get your free footprint sticker after a short quiz."
+            prompt: "Get your free footprint sticker after a short survey."
           },
           {
             prompt: "1. How often do you drive your car?",
@@ -43,7 +45,7 @@ function App() {
             }
           },
           {
-            prompt: "Calculating...... Done!"
+            prompt: "Calculating................................... Done!"
           },
           {
             prompt: "It would only cost you $5.66 a month to offset your footprint.",

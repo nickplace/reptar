@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Black.woff2') format('woff2'),
+        url('Recoleta-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Black.woff2') format('woff2'),
+        url('Recoleta-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Medium.woff2') format('woff2'),
+        url('Recoleta-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Regular.woff2') format('woff2'),
+        url('Recoleta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Book';
+    src: url('Circular-Book.woff2') format('woff2'),
+        url('Circular-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

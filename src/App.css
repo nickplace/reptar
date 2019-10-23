@@ -6,7 +6,7 @@
 
 body {
     font-family: Recoleta;
-    background: #111 url('./steps-05.png') fixed -18.7vw center ;
+    background: #111 url('./img/steps-bg.png') fixed -18.7vw center ;
     /* background: #111; */
     background-size: 80vw;
     animation: scroll-it 600s linear infinite;

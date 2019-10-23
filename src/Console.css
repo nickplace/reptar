@@ -12,7 +12,7 @@
 
 .typeout {
     font-size: 10vw;
-    font-weight: 400;
+    font-weight: 500;
     /* text-transform: uppercase; */
     padding:3vw 5vw 0 5vw;
     color: white;
@@ -53,7 +53,7 @@
     margin: 3vw 3vw 0 0;
     cursor: pointer;
     font-weight: 300;
-    font-family: Circular ;
+    font-family: 'Circular Book' ;
     text-align: center;
     /* min-width: 35%; */
 }
@@ -76,7 +76,10 @@
 
 @media (max-width: 520px) {
     .typeout {
-        font-size: 12.5vw
+        font-size: 12.5vw;
+    }
+    .multiple-choice {
+        margin-top: 2vw
     }
      .multiple-choice .option {
         border-width: .6vw;
