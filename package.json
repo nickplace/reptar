@@ -2,7 +2,7 @@
   "name": "reptar.org",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nickplace.github.io/reptar-demo",
+  "homepage": "http://nickplace.github.io/reptar",
   "dependencies": {
     "brim": "^1.0.13",
     "matter": "^0.2.0",
