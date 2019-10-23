@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/reptar-demo/precache-manifest.d2a803e28631d2fe1d065185196f4ad9.js"
+  "/reptar-demo/precache-manifest.0dce896313d8a0be3cafee3d1d3b6f5b.js"
 );
 
 self.addEventListener('message', (event) => {
