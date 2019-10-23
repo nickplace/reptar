@@ -1,0 +1,121 @@
+
+
+.console {
+    position: absolute;
+    top:0; left:0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center;
+    text-align: center; */
+}
+
+.typeout {
+    font-size: 10vw;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    padding:3vw 5vw 0 5vw;
+    color: white;
+    line-height: 1.15em;
+    margin-right: 5vw;
+
+}
+.console .command {
+    opacity: 0;
+    transition: .15s ease-in all;
+    padding-bottom: 8vh;
+    position: absolute;
+    bottom: 5vh;
+
+}
+.console .command:last-child {
+    opacity: 1;
+    bottom: 0vh;
+}
+
+.multiple-choice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -1.5vh 0 0 0;
+    padding: 0 5vw 0 5vw;
+    justify-content: flex-start;
+}
+
+.multiple-choice .option {
+    /* background: #eee; */
+    border: .3vw solid #fff;
+    color: #fff;
+    /* text-transform: uppercase; */
+    border-radius: 8vw;
+    font-size: 4vw;
+    padding: 1vw 3vw;
+    margin: 3vw 3vw 0 0;
+    cursor: pointer;
+    font-weight: 300;
+    font-family: Circular ;
+    text-align: center;
+    /* min-width: 35%; */
+}
+
+.multiple-choice .option:last-child {
+    margin-right: 0;
+}
+
+
+.multiple-choice .option:hover {
+    border-color: #fff;
+    color: black;
+    background: #fff;
+    /* box-shadow: 0 1rem 3rem #aaa; */
+}
+
+* {
+    transition: .2s ease-in all;
+}
+
+@media (max-width: 520px) {
+    .typeout {
+        font-size: 12.5vw
+    }
+     .multiple-choice .option {
+        border-width: .6vw;
+        font-size: 7vw;
+        padding: 1.5vw 5vw;
+        margin: 3vw 3vw 0 0;
+
+    }
+
+}
+
+@media (min-width: 720px) {
+    .typeout {
+        font-size: 7.5vw;
+    }
+    .multiple-choice .option {
+        border-width: .25vw;
+        font-size: 3.5vw;
+        padding: 1vw 2vw;
+        margin: 3vw 2vw 0 0;
+
+    }
+
+}
+
+@media (min-width: 1100px) {
+    .typeout {
+        font-size: 7vw;
+    }
+    .command {
+        margin-right: 2vw
+    }
+    .multiple-choice .option {
+        border-width: .22vw;
+        font-size: 2.5vw;
+        padding: 1vw 2vw;
+        margin: 3vw 2vw 0 0;
+
+
+    }
+
+}

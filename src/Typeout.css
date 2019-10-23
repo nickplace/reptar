@@ -1,0 +1,16 @@
+.blink {
+}
+
+@keyframes blink-caret {
+    from, to { border-left-color: transparent }
+    50% { border-left-color: #D1CC22 }
+}
+
+.vertical-caret {
+    border-left: 7px solid #D1CC22;
+    margin-left: -2px;
+        animation: 
+        blink-caret 1.1s step-end infinite;
+
+}
+
